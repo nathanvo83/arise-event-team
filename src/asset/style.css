@@ -1,0 +1,20 @@
+.content {
+  padding: 10px 10%;
+  /* background: brown; */
+}
+.number {
+  width: 8%;
+  font-size: 1.5rem;
+  /* height: 20px; */
+  padding: 10px 0px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.number-on {
+  background-color: #ffb400;
+}
+
+.number-off {
+  /* background-color: cadetblue; */
+}
