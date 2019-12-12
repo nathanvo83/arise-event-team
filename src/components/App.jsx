@@ -7,7 +7,7 @@ const App = () => {
   const times = 20;
 
   const log = (title, msg) => {
-    console.log(title, msg);
+    // console.log(title, msg);
   };
 
   const handleTotalChange = event => {
@@ -35,7 +35,6 @@ const App = () => {
 
     const intervalId = setInterval(() => {
       let _data = original.map(i => ({ ...i }));
-
       log("original", original);
 
       let r = getRandomInt(total);
@@ -53,14 +52,7 @@ const App = () => {
       if (count >= times) {
         clearInterval(intervalId);
       }
-      // log("count", count);
-      // log("r", r);
     }, 200);
-
-    // for (let i = 0; i < 5; i++) {}
-    // let _data = [...data];
-    // _data[r].status = true;
-    // setData(_data);
   };
 
   return (
