@@ -57,13 +57,14 @@ const App = () => {
 
   return (
     <React.Fragment>
+      <div className="content">
+        <Content data={data}></Content>
+      </div>
+      <hr></hr>
       <input type="text" value={total} onChange={handleTotalChange}></input>
       <button onClick={buildContent}>build</button>
       <button onClick={startRandom}>start</button>
       <hr></hr>
-      <div className="content">
-        <Content data={data}></Content>
-      </div>
     </React.Fragment>
   );
 };
