@@ -12,11 +12,14 @@ body {
 }
 
 .bottom {
+  text-align: center;
   width: 100%;
   position: absolute;
   bottom: 0px;
   /* background-color: #8ac007; */
   /* border: 1px solid #8ac007; */
+  border: 1px solid gray;
+  padding: 10px 0px;
 }
 
 .bottom1 {

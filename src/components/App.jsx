@@ -65,7 +65,7 @@ const App = () => {
         </h1>
         <Content data={data}></Content>
 
-        <div className="bottom">
+        <div className="effect1 bottom">
           <input type="text" value={total} onChange={handleTotalChange}></input>
           <button onClick={buildContent}>build</button>
           <button onClick={startRandom}>start</button>
