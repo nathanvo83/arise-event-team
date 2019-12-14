@@ -5,7 +5,9 @@ const Number = props => {
   return (
     <button
       className={
-        item.status === true ? "number number-on" : "number number-off"
+        item.status === true
+          ? "effect1 number number-on"
+          : "effect1 number number-off"
       }
     >
       {item.value + 1}

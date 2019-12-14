@@ -56,16 +56,22 @@ const App = () => {
   };
 
   return (
-    <React.Fragment>
-      <div className="content">
+    <div>
+      <div className="parent">
+        <h1 className="title">
+          ARISE CHURCH
+          <br />
+          Merry Christmas 2019
+        </h1>
         <Content data={data}></Content>
+
+        <div className="bottom">
+          <input type="text" value={total} onChange={handleTotalChange}></input>
+          <button onClick={buildContent}>build</button>
+          <button onClick={startRandom}>start</button>
+        </div>
       </div>
-      <hr></hr>
-      <input type="text" value={total} onChange={handleTotalChange}></input>
-      <button onClick={buildContent}>build</button>
-      <button onClick={startRandom}>start</button>
-      <hr></hr>
-    </React.Fragment>
+    </div>
   );
 };
 
